@@ -31,3 +31,5 @@ I also learned how to create API endpoints for my model using:
 
 - Using `FastAPI` to create REST APIs for prediction
 <center><img src = "Model deployment\mlfastpi_app.png" height = 500px></center>
+
+Note: Also learned how to use `Git-LFS` because `sklearn.RandomForestRegression()` models have huge storage (_especially for trees with_ $\infty$ _depth_)
