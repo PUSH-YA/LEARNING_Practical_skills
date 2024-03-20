@@ -1,33 +1,33 @@
-# Practical-skills
+# **Goal**
 
-This will be a journal to keep track of all my notes on short external courses
+The main goal of this project is to learn all the practical skills associated with the process of model deployment from data collection from a  server to deploying your model using a docker.
 
-Current notes structure:
+# **What I learned**
 
-## 1. Dockers
+## Dockers
 
-### Technical skills
+These skills and understandings are also mentioned in my Dockers notes:
+1. Container architecture
+2. Docker commands
+3. Docker storage
+4. Docker networking
+5. Docker compose
+6. Docker version controlling with an external registry
 
-### What I learned
+> All of the skills above were learnt in both theoretical (at an introductory level) and applied manner
 
-## 2. Model deployment
+## Model deployment 
 
-### Technical skills
+The skillsets I learnt:
+- Host your own SQL Server 
+- Loading and manipulating datasets on your SQL DB server using SSMS 
+- Perform SQL queries using Python (Get access to data from SQL DB)
+- Use `datasist` library to perform EDA and feature engineering
+  
+I also learned how to create API endpoints for my model using:
+- `Flask`
+- `Streamlit`
+<center><img src = "Model deployment\streamlit_app.png" height = 500px></center>
 
-### What I learned
-
-## 3. data engineering (azure databricks + PySpark)
-
-### Technical skills
-
-### What I learned
-
-
-## 4. NoSQL databases
-
-### Technical skills
-
-MongoDB, Pinecone
-
-### What I learned
-
+- Using `FastAPI` to create REST APIs for prediction
+<center><img src = "Model deployment\mlfastpi_app.png" height = 500px></center>
