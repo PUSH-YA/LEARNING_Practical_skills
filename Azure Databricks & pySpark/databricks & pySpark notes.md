@@ -8,15 +8,11 @@ $\text{Azure databricks}  = \text{Apache Spark} + \text{Databricks} + \text{Ente
 
 - `Enterprise cloud` := we can integrate Spark and Databricks with clouds such as Azure, AWS, GCP
 
-
-
 Azure databricks is a unified set of tools for *building, deploying, sharing and maintaining* enterprise-grade data solutions at scale (Big Data Solution).
 
 - Azure databricks is used to *process, store, share, analyze, model and monetize* their datasets with solutions from BI to ML. 
 
 - used to build and deploy *data engineering workflows, ML models, analytics dashboards*, etc.
-
-
 
 ## Spark:
 
@@ -28,21 +24,13 @@ Azure databricks is a unified set of tools for *building, deploying, sharing and
 
 - The main feature of Spark is its ***in-memory cluster computing*** that increases the processing speed of an application
 
-
-
-
-
 # **Azure Databricks Architecture**
 
-
-
-<img title="" src="Azure databricks architecture.png" alt="">
+<img title="" src="images/Azure databricks architecture.png" alt="">
 
 - We have ***control plane*** which passes commands
 
 - We have ***compute plane*** where the actual processing takes place
-
-
 
 ## Control Plane
 
@@ -70,13 +58,9 @@ Azure databricks is a unified set of tools for *building, deploying, sharing and
 
 - There is also ***serverless computer plane*** for computing resources for serverless SQL warehouses.
 
-
-
 # **In-memory computation and Map-Reduce in Hadoop**
 
-
-
-<img title="" src="mapReduce.png" alt="">
+<img title="" src="images/mapReduce.png" alt="">
 
 1. Each piece of datum is ***equally split*** 
    
@@ -86,13 +70,11 @@ Azure databricks is a unified set of tools for *building, deploying, sharing and
    
    1. again each mapping block would be given to one CPU node
 
-3.  ***Shuffle*** groups alls the similar items together
+3. ***Shuffle*** groups alls the similar items together
 
 4. ***Reduce*** increases the value accordingly so, only word is needed to represent all its copies
 
 5. Stores the ***final result***, the count dictionary 
-
-
 
 ## In memory computation
 
@@ -100,19 +82,15 @@ all the CPU nodes or the missions might be different but same *memory* so, `Redu
 
 - makes Spark fast
 
-
-
 # **Curr. Spark env VS Databricks serverless**
 
-<img title="" src="diff env.png" alt="">
+<img title="" src="images/diff env.png" alt="">
 
 Main Idea:
 
 - Current Spark environment is like cooking for people specifically, from scratch which makes it hard to scale
 
 - Databricks serverless is like knowing how many people are coming 10 to 15 min in advance and then ordering food
-
-
 
 Benefits:
 
@@ -126,11 +104,9 @@ Benefits:
 
 - Production ready environment with CI/CD pipelines
 
-
-
 # **Driver Program, Worker Program and Cluster Manager**
 
-<img title="" src="cluster mgm.png" alt="">
+<img title="" src="images/cluster mgm.png" alt="">
 
 - The `Driver program` gets and runs the code
 
