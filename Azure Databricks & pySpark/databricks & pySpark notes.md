@@ -36,7 +36,7 @@ Azure databricks is a unified set of tools for *building, deploying, sharing and
 
 
 
-<img title="" src="file:///C:/MINE/NERD STUFF/new skills/Fullstack ML-AI/LEARNING_practical_dsci/Azure Databricks & pySpark/Azure databricks architecture.png" alt="">
+<img title="" src="Azure databricks architecture.png" alt="">
 
 - We have ***control plane*** which passes commands
 
@@ -76,7 +76,7 @@ Azure databricks is a unified set of tools for *building, deploying, sharing and
 
 
 
-<img title="" src="file:///C:/MINE/NERD STUFF/new skills/Fullstack ML-AI/LEARNING_practical_dsci/Azure Databricks & pySpark/mapReduce.png" alt="">
+<img title="" src="mapReduce.png" alt="">
 
 1. Each piece of datum is ***equally split*** 
    
@@ -104,7 +104,7 @@ all the CPU nodes or the missions might be different but same *memory* so, `Redu
 
 # **Curr. Spark env VS Databricks serverless**
 
-<img title="" src="file:///C:/MINE/NERD STUFF/new skills/Fullstack ML-AI/LEARNING_practical_dsci/Azure Databricks & pySpark/diff env.png" alt="">
+<img title="" src="diff env.png" alt="">
 
 Main Idea:
 
@@ -130,7 +130,7 @@ Benefits:
 
 # **Driver Program, Worker Program and Cluster Manager**
 
-<img title="" src="file:///C:/MINE/NERD STUFF/new skills/Fullstack ML-AI/LEARNING_practical_dsci/Azure Databricks & pySpark/cluster mgm.png" alt="">
+<img title="" src="cluster mgm.png" alt="">
 
 - The `Driver program` gets and runs the code
 
