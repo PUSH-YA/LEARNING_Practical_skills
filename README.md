@@ -33,3 +33,38 @@ I also learned how to create API endpoints for my model using:
 <center><img src = "Model deployment\mlfastpi_app.png" height = 500px></center>
 
 Note: Also learned how to use `Git-LFS` because `sklearn.RandomForestRegression()` models have huge storage (_especially for trees with_ $\infty$ _depth_)
+
+## Azure DataBricks and pySpark
+
+I learned the following:
+1. Azure Databricks architecture
+2. In-memory computation and Map-Reduce in Hadoop
+3. Spark environment vs Databricks serverless architecture
+4. Cluster management system
+
+Also learned how to use 
+```python
+pyspark
+```
+such as:
+1. How to set up Apache spark environment 
+2. Parallelising data processing with spark
+3. Performing Data manipulations on `rdd` and `dataframes` in spark
+4. Machine learning in spark
+
+Combined all my knowledge from above with my past machine learning skills to actually create an ML pipeline using ***airbnb*** data to predict prices:
+<img src = "Azure Databricks & pySpark/images/MLSpark.png">
+
+## MongoDataBase
+
+### Mongoshell for data manipulations:
+<img src = "MongoDB/mongoshell.png">
+
+1. Learned how to setup a local MongoDB and cloud based MongoDB Server
+2. Learned how to perform basics of CRUD on MongoDB using mongo shell commands
+3. Perform more complex queries such as accessing conditional subsets, sorting, and updating schemas in the DB server
+
+
+### Also used MongoDB compass to manipulate data
+<img src = "MongoDB/MongoDB compass.png">
+ 
