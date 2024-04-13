@@ -27,10 +27,10 @@ The skillsets I learnt:
 I also learned how to create API endpoints for my model using:
 - `Flask`
 - `Streamlit`
-<center><img src = "Model deployment\streamlit_app.png" height = 500px></center>
+<center><img src = "Model deployment\streamlit_app.png" width = 70%></center>
 
 - Using `FastAPI` to create REST APIs for prediction
-<center><img src = "Model deployment\mlfastpi_app.png" height = 500px></center>
+<center><img src = "Model deployment\mlfastpi_app.png" width = 70%></center>
 
 Note: Also learned how to use `Git-LFS` because `sklearn.RandomForestRegression()` models have huge storage (_especially for trees with_ $\infty$ _depth_)
 
@@ -53,12 +53,12 @@ such as:
 4. Machine learning in spark
 
 Combined all my knowledge from above with my past machine learning skills to actually create an ML pipeline using ***airbnb*** data to predict prices:
-<img src = "Azure Databricks & pySpark/images/MLSpark.png">
+<img src = "Azure Databricks & pySpark/images/MLSpark.png" width = 70%>
 
 ## MongoDataBase
 
 ### Mongoshell for data manipulations:
-<img src = "MongoDB/mongoshell.png">
+<img src = "MongoDB/mongoshell.png" width = 70%>
 
 1. Learned how to setup a local MongoDB and cloud based MongoDB Server
 2. Learned how to perform basics of CRUD on MongoDB using mongo shell commands
@@ -66,5 +66,28 @@ Combined all my knowledge from above with my past machine learning skills to act
 
 
 ### Also used MongoDB compass to manipulate data
-<img src = "MongoDB/MongoDB compass.png">
- 
+<img src = "MongoDB/MongoDB compass.png" width = 70%>
+
+
+ # Pinecone
+
+I learned the following aspects of using a vector database (`Pinecone`):
+- What are Pinecone indexes
+  
+  <img src = "Pinecone\images\indexes.png" width = 70%>
+- How to use serverless vector databases
+- Getting, upserting adn editing vectors in the databases
+- Performing metadata filtering on queries
+
+    <img src = "Pinecone\images\metadata.png" width = 70%>
+- How `namespaces` work in Pinecone
+- Creating a `simple k-nn classifier` using the vector database
+
+The vectors uploaded are plotted below:
+    <img src = "Pinecone\images\knn1.png" width = 70%>
+
+Sample code classifying them based on $\cos$ similarity
+    <img src = "Pinecone\images\knn2.png" width = 70%>
+
+Pinecone starter index is shown below:
+    <img src = "Pinecone\images\pineconedb.png" width = 70%>
